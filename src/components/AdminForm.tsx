@@ -38,7 +38,7 @@ const AdminForm = () => {
   return (
     <div>
       <form onSubmit={handleSubmission}>
-      <input type="text" placeholder="Lesson Title" value={title} onChange={(e) => setLessonTitle(e.target.value)}/><br/>
+      <input type="text" className="border-2" placeholder="Lesson Title" value={title} onChange={(e) => setLessonTitle(e.target.value)}/><br/>
       <input type="text" placeholder="Description" value={desc} onChange={(e) => setDescription(e.target.value)}/><br/>
       <input type="text" placeholder="Level" value={stage} onChange={(e) => setLevel(e.target.value)}/><br/>
       <input type="text" placeholder="YouTube Video Link" value={link} onChange={(e) => setYoutubeLink(e.target.value)}/><br/>
